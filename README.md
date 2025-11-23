@@ -40,9 +40,9 @@ After editing line 2:
 
 Usage:
 
-- Download batchpad++ v1.0.zip, extract it and run [setup.exe]. Follow the on-screen instructions to finish installation properly.
+- Download the batchpad++ zip file  extract it and run [setup.exe]. Follow the on-screen instructions to finish installation properly.
 - After the program has been installed, there will be a shortcut included on your desktop. Double click it to open the text editor and start editing documents.
 - A context menu option for editing plaintext-style files has also been included, such as .txt, .vbs, .bat or .cmd files.
 - Type $hl and you will get instructions on commands and how to use the software properly.
 
-**If you want to view the source code, download source-code.zip, extract it and read the README.txt at first before proceeding to view the source code itself.**
+**The source code is included in the same zip file as the software release itself**
