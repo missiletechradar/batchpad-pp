@@ -1,0 +1,26 @@
+ThatGuyVR's original: https://github.com/Thatguyvr15/Batchpad/releases/tag/Batchpad
+
+This is a fork of ThatGuyVR's Batchpad text editor. This program includes the following features:
+
+ - Ability to change color scheme
+ - Editing specific lines
+ - List lines with numbers from saved document or unsaved {temp.txt] file
+ - Improved user interface with tabs and more user-friendly
+
+ - Unique commands and help page ($hl, $cl) that prevent the user from 
+   accidentally triggering them while typing.
+
+ - Ability to edit existing documents directly
+ - Context menu option to edit documents directly
+
+This screenshot shows how Batchpad++'s user interface looks like with the default color scheme on the help page:
+
+ - <img width="994" height="515" alt="image" src="https://github.com/user-attachments/assets/7e4ea5fe-7f52-42c3-abc7-d7137a799dec" />
+
+While editing a new document:
+
+<img width="986" height="522" alt="image" src="https://github.com/user-attachments/assets/288b168c-5669-4af7-b924-d4f7cb3b887a" />
+
+This is the Batchpad++ setup wizard, which installs the software but also allows you to make modifications if you change your mind regarding certain things, or uninstall the software altogether.
+
+<img width="628" height="628" alt="image" src="https://github.com/user-attachments/assets/b062380c-da87-4ab1-a8c0-2a35392aab54" />
