@@ -46,3 +46,5 @@ Usage:
 - Type $hl and you will get instructions on commands and how to use the software properly.
 
 **The source code is included in the same zip file as the software release itself**
+
+**Note: The commands and syntax system were changed from $edit to #edit (example). This is because the dollar sign can interfere with bash or powershell syntax**
