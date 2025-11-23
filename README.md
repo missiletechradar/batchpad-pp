@@ -25,6 +25,19 @@ This is the Batchpad++ setup wizard, which installs the software but also allows
 
 <img width="628" height="628" alt="image" src="https://github.com/user-attachments/assets/b062380c-da87-4ab1-a8c0-2a35392aab54" />
 
+Example of regular document editing:
+
+<img width="974" height="366" alt="image" src="https://github.com/user-attachments/assets/4137dd8f-e04a-485a-896e-1dfd63b4df4c" />
+
+**Line editing**:
+
+Before editing line 2:
+<img width="993" height="520" alt="image" src="https://github.com/user-attachments/assets/af7e00ed-aa76-45a1-b359-d6c5e790cc23" />
+
+After editing line 2:
+
+<img width="1330" height="407" alt="image" src="https://github.com/user-attachments/assets/c87db3b9-16d5-49a2-b523-e6acada56fce" />
+
 Usage:
 
 - Download batchpad++ v1.0.zip, extract it and run [setup.exe]. Follow the on-screen instructions to finish installation properly.
