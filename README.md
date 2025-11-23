@@ -24,3 +24,12 @@ While editing a new document:
 This is the Batchpad++ setup wizard, which installs the software but also allows you to make modifications if you change your mind regarding certain things, or uninstall the software altogether.
 
 <img width="628" height="628" alt="image" src="https://github.com/user-attachments/assets/b062380c-da87-4ab1-a8c0-2a35392aab54" />
+
+Usage:
+
+- Download batchpad++ v1.0.zip, extract it and run [setup.exe]. Follow the on-screen instructions to finish installation properly.
+- After the program has been installed, there will be a shortcut included on your desktop. Double click it to open the text editor and start editing documents.
+- A context menu option for editing plaintext-style files has also been included, such as .txt, .vbs, .bat or .cmd files.
+- Type $hl and you will get instructions on commands and how to use the software properly.
+
+**If you want to view the source code, download source-code.zip, extract it and read the README.txt at first before proceeding to view the source code itself.**
