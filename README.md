@@ -1,4 +1,4 @@
-ThatGuyVR's original: https://github.com/Thatguyvr15/Batchpad/releases/tag/Batchpad
+ThatGuyVR's original script: https://github.com/Thatguyvr15/Batchpad/releases/tag/Batchpad
 
 This is a fork of ThatGuyVR's Batchpad text editor. This program includes the following features:
 
