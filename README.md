@@ -15,7 +15,9 @@ This is a fork of ThatGuyVR's Batchpad text editor. This program includes the fo
 
 This screenshot shows how Batchpad++'s user interface looks like with the default color scheme on the help page:
 
- - <img width="994" height="515" alt="image" src="https://github.com/user-attachments/assets/7e4ea5fe-7f52-42c3-abc7-d7137a799dec" />
+<img width="987" height="516" alt="image" src="https://github.com/user-attachments/assets/68b7fa75-32e2-4501-8ce0-df32cc67effa" />
+
+**Note: The commands and syntax system were changed from $edit to #edit (example). This is because the dollar sign can interfere with bash or powershell syntax**
 
 While editing a new document:
 
@@ -46,5 +48,3 @@ Usage:
 - Type $hl and you will get instructions on commands and how to use the software properly.
 
 **The source code is included in the same zip file as the software release itself**
-
-**Note: The commands and syntax system were changed from $edit to #edit (example). This is because the dollar sign can interfere with bash or powershell syntax**
