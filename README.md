@@ -1,5 +1,9 @@
 ThatGuyVR's original script: https://github.com/Thatguyvr15/Batchpad/releases/tag/Batchpad
 
+**In case you can't run batch files without running them as admin after installing this, run CMD as admin and copy-paste this:** reg add "HKCR\batfile\shell\open\command" /ve /t REG_EXPAND_SZ /d "\"%SystemRoot%\\System32\\cmd.exe\" /k \"%1\" %*" /f
+
+Because of an instalation bug in Batchpad++, this issue can be triggered at the registry level, and this simple command can fix it.
+
 This is a fork of ThatGuyVR's Batchpad text editor. This program includes the following features:
 
  - Ability to change color scheme
