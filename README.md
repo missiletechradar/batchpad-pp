@@ -1,10 +1,18 @@
 ThatGuyVR's original script: https://github.com/Thatguyvr15/Batchpad/releases/tag/Batchpad
 
-**In case you can't run batch files without running them as admin after installing this, run CMD as admin and copy-paste this:** reg add "HKCR\batfile\shell\open\command" /ve /t REG_EXPAND_SZ /d "\"%SystemRoot%\\System32\\cmd.exe\" /k \"%1\" %*" /f
+**In case you can't run batch files without running them as admin after installing this, or vbs files (which is the case because of a program bug, run these commands in CMD as admin:*
+
+fix bat file not running:
+
+reg add "HKCR\batfile\shell\open\command" /ve /t REG_EXPAND_SZ /d "\"%SystemRoot%\\System32\\cmd.exe\" /k \"%1\" %*" /f
+
+fix vbs not running:
+
+reg add "HKCR\vbsfile\Shell\Open\Command" /ve /d "\"%SystemRoot%\System32\WScript.exe\" \"%1\" %*" /f & reg add "HKCR\.vbs" /ve /d "vbsfile" /f
 
 Because of an instalation bug in Batchpad++, this issue can be triggered at the registry level, and this simple command can fix it.
 
-This is a fork of ThatGuyVR's Batchpad text editor. This program includes the following features:
+# This is a fork of ThatGuyVR's Batchpad text editor. This program includes the following features:
 
  - Ability to change color scheme
  - Editing specific lines
