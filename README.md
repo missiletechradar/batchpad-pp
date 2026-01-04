@@ -2,9 +2,10 @@ ThatGuyVR's original script: https://github.com/Thatguyvr15/Batchpad/releases/ta
 
 **In case you can't run batch files without running them as admin after installing this, or vbs files (which is the case because of a program bug, run these commands in CMD as admin:*
 
-fix bat file not running:
+fix bat and cmd file not running:
 
-reg add "HKCR\batfile\shell\open\command" /ve /t REG_EXPAND_SZ /d "\"%SystemRoot%\\System32\\cmd.exe\" /k \"%1\" %*" /f
+reg add "HKCR\batfile\shell\open\command" /ve /t REG_EXPAND_SZ /d "\"%SystemRoot%\\System32\\cmd.exe\" /c \"%1\" %*" /f
+reg add "HKCR\cmdfile\shell\open\command" /ve /t REG_EXPAND_SZ /d "\"%SystemRoot%\\System32\\cmd.exe\" /c \"%1\" %*" /f
 
 fix vbs not running:
 
